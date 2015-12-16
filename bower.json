@@ -1,9 +1,10 @@
 {
   "name": "ios-scroll-to-top",
   "main": "src/ios-scroll-to-top.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "homepage": "https://github.com/hooriza/ios-scroll-to-top",
   "authors": [
-    "hooriza@gmail.com"
+    "hooriza <hooriza@gmail.com>"
   ],
   "license": "MIT",
   "ignore": [
