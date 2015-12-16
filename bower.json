@@ -1,0 +1,19 @@
+{
+  "name": "ios-tap-statusbar",
+  "main": "demo.html",
+  "version": "0.0.0",
+  "authors": [
+    "hooriza@gmail.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "zepto": "~1.1.6"
+  }
+}
