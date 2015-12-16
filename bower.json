@@ -11,7 +11,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "example"
   ],
   "devDependencies": {
     "zepto": "~1.1.6"
