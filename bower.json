@@ -1,6 +1,6 @@
 {
-  "name": "ios-tap-statusbar",
-  "main": "demo.html",
+  "name": "ios-scroll-to-top",
+  "main": "src/ios-scroll-to-top.js",
   "version": "0.0.0",
   "authors": [
     "hooriza@gmail.com"
