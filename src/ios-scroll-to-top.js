@@ -96,12 +96,18 @@
 			scrollable.scrollTop = beforeScrollTop - 1;
 			if (beforeScrollTop === scrollable.scrollTop) {
 				scrollable.scrollTop += 1;
+				if (beforeScrollTop === scrollable.scrollTop) {
+					evt.preventDefault();
+				}
 				return;
 			}
 
 			scrollable.scrollTop = beforeScrollTop + 1;
 			if (beforeScrollTop === scrollable.scrollTop) {
 				scrollable.scrollTop -= 1;
+				if (beforeScrollTop === scrollable.scrollTop) {
+					evt.preventDefault();
+				}
 				return;
 			}
 
